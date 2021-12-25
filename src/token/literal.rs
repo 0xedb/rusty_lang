@@ -18,10 +18,13 @@ pub const STAR: char = '*';
 pub const SLASH: char = '/';
 pub const GT: char = '>';
 pub const LT: char = '<';
+pub const EOF: char = '\0';
 
 pub const IF: &str = "se";
 pub const ELSE: &str = "ana";
 pub const LET: &str = "ma";
 pub const FN: &str = "ye";
+pub const EQUAL: &str = "==";
 pub const TRUE: &str = "nukre";
 pub const FALSE: &str = "ntro";
+pub const NOTEQUAL: &str = "!=";

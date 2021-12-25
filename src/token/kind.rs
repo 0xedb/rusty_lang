@@ -1,10 +1,9 @@
-// contains token type
-
 use super::unit::Unit;
 
+#[derive(Debug)]
 pub struct Type {
-    unit: Unit,
-    literal: Option<String>,
+    pub unit: Unit,
+    pub literal: Option<String>,
 }
 
 impl Type {
